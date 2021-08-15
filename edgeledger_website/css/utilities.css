@@ -17,3 +17,23 @@
 .btn:hover {
   opacity: 0.9;
 }
+
+.btn-primary {
+  background-color: #28a745;
+  color: #faf8f8;
+}
+
+.btn-secondary {
+  background-color: #0284d0;
+  color: #faf8f8;
+}
+
+.btn-dark {
+  background-color: #0a141a;
+  color: #faf8f8;
+}
+
+.btn-light {
+  background-color: #faf8f8;
+  color: #0a141a;
+}
