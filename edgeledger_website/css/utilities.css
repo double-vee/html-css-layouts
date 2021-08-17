@@ -96,3 +96,34 @@
 .column-text p {
   margin: 20px 0;
 }
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px 28px;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 20px 20px 38px;
+}
+
+.flex-grid .flex-row {
+  gap: 4px;
+}
+
+.flex-grid .flex-column {
+  max-width: 25%;
+}
+
+.flex-grid .flex-column img {
+  height: 50%;
+  padding: 2px 0;
+}
