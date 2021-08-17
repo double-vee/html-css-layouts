@@ -57,3 +57,38 @@
 .flex-items > div {
   padding: 20px;
 }
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.flex-column img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.column-text {
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+}
+
+.column-text h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.column-text h4 {
+  margin-bottom: 10px;
+}
+
+.column-text p {
+  margin: 20px 0;
+}
