@@ -65,7 +65,6 @@
 .flex-column {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
 .flex-column img {
@@ -74,9 +73,14 @@
   object-fit: cover;
 }
 
+.column-img {
+  width: 50%;
+}
+
 .column-text {
   align-items: flex-start;
   justify-content: center;
+  width: 50%;
   padding: 30px;
 }
 
