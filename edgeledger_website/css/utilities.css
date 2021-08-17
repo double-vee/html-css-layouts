@@ -18,24 +18,33 @@
   opacity: 0.9;
 }
 
-.btn-primary {
+.btn-primary,
+.bg-primary {
   background-color: #28a745;
   color: #faf8f8;
 }
 
-.btn-secondary {
+.btn-secondary,
+.bg-secondary {
   background-color: #0284d0;
   color: #faf8f8;
 }
 
-.btn-dark {
+.btn-dark,
+.bg-dark {
   background-color: #0a141a;
   color: #faf8f8;
 }
 
-.btn-light {
+.btn-light,
+.bg-light {
   background-color: #faf8f8;
   color: #0a141a;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #faf8f8;
 }
 
 .flex-items {
