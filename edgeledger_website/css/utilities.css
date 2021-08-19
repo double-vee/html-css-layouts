@@ -62,6 +62,10 @@
   display: flex;
 }
 
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
