@@ -102,3 +102,11 @@ img {
 .cases img:hover {
   opacity: 0.8;
 }
+
+.team img {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
