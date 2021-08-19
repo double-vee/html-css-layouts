@@ -115,15 +115,11 @@
   padding: 20px 20px 38px;
 }
 
-.flex-grid .flex-row {
-  gap: 4px;
-}
-
 .flex-grid .flex-column {
   max-width: 25%;
 }
 
 .flex-grid .flex-column img {
   height: 50%;
-  padding: 2px 0;
+  padding: 2px;
 }
