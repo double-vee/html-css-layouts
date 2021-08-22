@@ -41,6 +41,11 @@ img {
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 1;
+}
+
+.navbar:hover {
+  background-color: #0a141a;
 }
 
 .navbar a {
