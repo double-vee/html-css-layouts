@@ -64,6 +64,7 @@ img {
   height: 100vh;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 16, 26, 0.85), rgba(0, 0, 0, 0.25)), url('../img/home/showcase.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
 }
 
 .hero .content {
