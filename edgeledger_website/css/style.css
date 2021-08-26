@@ -176,3 +176,61 @@ img {
 .social i:hover {
   color: #28a745;
 }
+
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .navbar .logo {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .navbar a {
+    margin: 0 4px;
+    padding: 10px;
+  }
+
+  .flex-items,
+  .solutions.flex-row,
+  .blog.flex-row,
+  .contact.flex-row {
+    flex-direction: column;
+  }
+
+  .column-text,
+  .column-img {
+    width: 100%;
+  }
+
+  .flex-grid .flex-row {
+    flex-wrap: wrap;
+  }
+
+  .flex-grid .flex-column {
+    max-width: 50%;
+  }
+
+  .team .flex-items > div {
+    padding: 10px;
+  }
+
+  .team p {
+    margin: 5px 0;
+  }
+}
+
+@media(max-width: 548px) {
+  .flex-grid .flex-column {
+    max-width: 100%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .team img {
+    width: 260px;
+    height: 260px;
+  }
+}
