@@ -124,6 +124,15 @@ img {
   margin-bottom: 15px;
 }
 
+.cases .flex-column {
+  max-width: 25%;
+}
+
+.cases img {
+  height: 50%;
+  padding: 2px;
+}
+
 .cases img:hover {
   opacity: 0.8;
 }
@@ -200,9 +209,7 @@ img {
   }
 
   .flex-items,
-  .solutions.flex-row,
-  .blog.flex-row,
-  .contact.flex-row {
+  .flex-row {
     flex-direction: column;
   }
 
@@ -211,7 +218,7 @@ img {
     width: 100%;
   }
 
-  .flex-grid .flex-row {
+  .flex-grid {
     flex-wrap: wrap;
   }
 
