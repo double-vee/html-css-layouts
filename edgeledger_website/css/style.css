@@ -171,6 +171,28 @@ img {
   margin-top: 15px;
 }
 
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: #ccc solid 1px;
+  font-size: 2.5rem;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  display: block;
+  margin-bottom: 15px;
+  max-height: 30vh;
+  object-fit: cover;
+}
+
 .footer {
   justify-content: center;
   align-items: center;
