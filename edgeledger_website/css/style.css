@@ -48,6 +48,10 @@ img {
   background-color: #0a141a;
 }
 
+.navbar.top {
+  background-color: transparent;
+}
+
 .navbar a {
   display: inline-block;
   position: relative;
