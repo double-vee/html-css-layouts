@@ -42,6 +42,7 @@ img {
   position: fixed;
   top: 0px;
   z-index: 1;
+  transition: 0.3s;
 }
 
 .navbar:hover {
