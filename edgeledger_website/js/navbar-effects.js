@@ -2,7 +2,7 @@ const navbar = document.getElementById('navbar');
 let scrolled = false;
 
 const handleScroll = () => {
-  if(pageYOffset >= 100) {
+  if(scrollY >= 100) {
     navbar.classList.remove('top');
     if(!scrolled) {
       navbar.style.transform = `translateY(-${navbar.offsetHeight}px)`;
