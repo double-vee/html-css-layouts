@@ -78,3 +78,22 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
+
+@media (max-width: 548px) {
+  .page {
+    padding: 0 2rem;
+  }
+
+  .page h1 {
+    font-size: 1.8rem;
+  }
+  
+  .page p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+  }
+}
