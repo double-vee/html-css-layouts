@@ -3,7 +3,7 @@
   --page-2-color: peru;
   --page-3-color: teal;
   --page-4-color: darkslateblue;
-  --animate-speed: 1s;
+  --animate-speed: .8s;
 }
 
 * {
@@ -55,6 +55,16 @@ body {
   font-size: 1.25rem;
 }
 
+#page-1 h1 {
+  transform: translateY(-1200px);
+  animation: slide-in-top var(--animate-speed) forwards ease-out;
+}
+
+#page-1 p {
+  transform: translateX(-1800px);
+  animation: slide-in-left var(--animate-speed) forwards ease-out var(--animate-speed);
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -95,5 +105,17 @@ body {
   .btn {
     padding: 0.8rem 1.6rem;
     font-size: 1rem;
+  }
+}
+
+@keyframes slide-in-top {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-left {
+  to {
+    transform: translateX(0);
   }
 }
