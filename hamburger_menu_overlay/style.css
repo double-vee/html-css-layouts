@@ -48,3 +48,29 @@ body {
   padding: 0 3rem;
   overflow: hidden;
 }
+
+#showcase h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+#showcase p {
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
