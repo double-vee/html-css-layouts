@@ -85,6 +85,8 @@
   justify-content: center;
   align-items: center;
   background-color: var(--overlay-color);
+  transform: scale(0);
+  transition: all var(--menu-speed) ease;
 }
 
 .menu > div a {
@@ -97,4 +99,8 @@
 
 .menu > div a:hover {
   color: var(--secondary-color);
+}
+
+.toggler:checked ~ .menu > div {
+  transform: scale(1);
 }
