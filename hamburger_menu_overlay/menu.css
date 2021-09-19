@@ -62,3 +62,7 @@
   top: 0;
   transform: rotate(90deg);
 }
+
+.toggler:checked:hover + .hamburger .hamburger-line {
+  transform: rotate(225deg);
+}
