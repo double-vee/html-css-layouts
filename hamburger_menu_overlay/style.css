@@ -74,3 +74,17 @@ body {
 .btn:hover {
   background-color: var(--secondary-color);
 }
+
+@media (max-width: 548px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  #showcase h1 {
+    font-size: 3.2rem;
+  }
+  
+  #showcase p {
+    font-size: 1rem;
+  }
+}
