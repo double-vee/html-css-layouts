@@ -51,3 +51,7 @@
 .hamburger-line::after {
   top: 10px;
 }
+
+.toggler:checked + .hamburger .hamburger-line {
+  transform: rotate(135deg);
+}
