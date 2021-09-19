@@ -36,3 +36,18 @@
   height: 2px;
   background-color: #fff;
 }
+
+.hamburger-line::before,
+.hamburger-line::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+.hamburger-line::after {
+  top: 10px;
+}
