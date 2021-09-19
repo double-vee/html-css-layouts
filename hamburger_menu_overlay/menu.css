@@ -35,6 +35,7 @@
   width: 100%;
   height: 2px;
   background-color: #fff;
+  transition: all 0.3s ease;
 }
 
 .hamburger-line::before,
