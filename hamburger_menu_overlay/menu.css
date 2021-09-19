@@ -81,9 +81,13 @@
 
 .menu > div {
   display: flex;
+  flex: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 300vw;
+  height: 300vw;
+  border-radius: 50%;
   background-color: var(--overlay-color);
   transform: scale(0);
   transition: all var(--menu-speed) ease;
