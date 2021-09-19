@@ -28,6 +28,17 @@ body {
   color: #fff;
 }
 
+#showcase::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./img/showcase.jpg) no-repeat center center / cover;
+  z-index: -1;
+}
+
 .container {
   display: flex;
   flex-direction: column;
