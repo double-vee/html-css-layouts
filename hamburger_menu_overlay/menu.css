@@ -66,3 +66,23 @@
 .toggler:checked:hover + .hamburger .hamburger-line {
   transform: rotate(225deg);
 }
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.menu > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--overlay-color);
+}
