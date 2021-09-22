@@ -69,3 +69,11 @@ body {
   background-color: var(--secondary-color);
   transition: all 0.5s ease-in-out;
 }
+
+#timeline li:nth-child(odd) div {
+  left: 40px;
+}
+
+#timeline li:nth-child(even) div {
+  left: -434px;
+}
