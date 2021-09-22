@@ -77,3 +77,16 @@ body {
 #timeline li:nth-child(even) div {
   left: -434px;
 }
+
+#timeline li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  transform: translateX(-50%);
+  transition: background-color 0.5s ease-in-out;
+}
