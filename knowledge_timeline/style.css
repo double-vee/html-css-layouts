@@ -38,6 +38,16 @@ body {
   letter-spacing: 0.1rem;
 }
 
-.container h3 {
+.container h3,
+#timeline h3 {
   font-weight: 400;
+}
+
+#timeline p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#timeline ul {
+  padding: 50px 0;
 }
