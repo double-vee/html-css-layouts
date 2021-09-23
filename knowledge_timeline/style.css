@@ -61,7 +61,7 @@ body {
   list-style: none;
 }
 
-#timeline li div {
+#timeline div {
   position: relative;
   bottom: 0;
   width: 400px;
@@ -110,4 +110,14 @@ body {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent var(--secondary-color);
+}
+
+@media(max-width: 900px) {
+  #timeline div {
+    width: 250px;
+  }
+
+  #timeline li:nth-child(even) div {
+    left: -284px;
+  }
 }
