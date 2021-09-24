@@ -68,6 +68,8 @@ body {
   padding: 1rem;
   background-color: var(--secondary-color);
   transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
 }
 
 #timeline li:nth-child(odd) div {
@@ -110,6 +112,11 @@ body {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent var(--secondary-color);
+}
+
+#timeline li.show div {
+  visibility: visible;
+  opacity: 1;
 }
 
 @media(max-width: 900px) {
