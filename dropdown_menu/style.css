@@ -57,3 +57,12 @@ body {
 #navbar ul li ul {
   display: none;
 }
+
+#navbar ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  width: 240px;
+  margin-top: 1rem;
+}
