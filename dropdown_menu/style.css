@@ -90,3 +90,19 @@ body {
   color: var(--light);
   font-size: 0.9rem;
 }
+
+#showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--navbar-height));
+  padding: 2rem;
+  background-color: deepskyblue;
+  text-align: center;
+}
+
+#showcase h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 300;
+}
