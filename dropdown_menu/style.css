@@ -106,3 +106,30 @@ body {
   font-size: 4rem;
   font-weight: 300;
 }
+
+@media(max-width: 600px) {
+  #navbar {
+    height: 100%;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+  }
+
+  #navbar ul li {
+    transition: none;
+  }
+
+  #navbar ul li:hover ul {
+    position: relative;
+    width: 100%;
+  }
+
+  #navbar ul li:hover ul li {
+    padding-left: 0;
+  }
+
+  #showcase {
+    height: calc(100vh - 310px);
+  }
+}
