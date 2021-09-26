@@ -16,3 +16,34 @@
 body {
   font-family: 'Poppins';
 }
+
+#navbar {
+  display: flex;
+  align-items: flex-end;
+  height: var(--navbar-height);
+  background-color: var(--dark);
+}
+
+#navbar ul {
+  display: flex;
+  width: 100%;
+}
+
+#navbar ul li {
+  position: relative;
+  padding: 1rem;
+  color: var(--light);
+  font-size: 1.25rem;
+  font-weight: 400;
+  list-style: none;
+  transition: 0.3s ease-in-out;
+}
+
+#navbar ul li a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+#navbar ul li ul {
+  display: none;
+}
