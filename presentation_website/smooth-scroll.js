@@ -1,4 +1,4 @@
-const links = document.querySelectorAll('.page a');
+const links = document.querySelectorAll('.btn');
  
 for (let link of links) {
   link.addEventListener("click", clickHandler);
@@ -6,9 +6,13 @@ for (let link of links) {
 
 function clickHandler(e) {
   e.preventDefault();
-  const href = e.target.getAttribute("href");
-  const offsetTop = document.querySelector(href).offsetTop;
- 
+
+  let href = e.target.getAttribute("href");
+  if(!href) {
+    href = e.target.parentElement.getAttribute("href");
+  }
+  let offsetTop = document.querySelector(href).offsetTop;
+  
   scrollTo({
     top: offsetTop,
     behavior: "smooth"
