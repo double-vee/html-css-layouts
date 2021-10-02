@@ -91,6 +91,37 @@ img {
   background-color: #fff;
 }
 
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark a,
+.bg-dark h3,
+.bg-primary a,
+.bg-primary h3,
+.bg-secondary a,
+.bg-secondary h3 {
+  color: #fff;
+}
+
+.py-1 { padding: 1.5rem 0 }
+.py-2 { padding: 2rem 0 }
+.py-3 { padding: 3rem 0 }
+.p-1 { padding: 1.5rem }
+.p-2 { padding: 2rem }
+.p-3 { padding: 3rem }
+
 .main-nav {
   background-color: #fff;
   position: sticky;
