@@ -141,6 +141,20 @@ img {
   color: var(--primary-color);
 }
 
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / 4;
+}
+
+.l-heading {
+  font-size: 3rem;
+}
+
 .main-nav {
   background-color: #fff;
   position: sticky;
