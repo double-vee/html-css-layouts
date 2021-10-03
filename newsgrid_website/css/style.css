@@ -258,6 +258,18 @@ img {
   grid-column: 2 / 4;
 }
 
+.article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-color);
+  padding: 0.8rem;
+}
+
+.article .meta .category {
+  margin: 0 0 0 0.5rem;
+}
+
 .main-footer {
   background-color: var(--dark-color);
   color: #fff;
