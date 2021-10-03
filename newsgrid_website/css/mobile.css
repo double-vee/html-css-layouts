@@ -45,6 +45,7 @@
 
   .showcase .showcase-container,
   .home-articles .articles-container,
+  .page-container,
   .footer-container {
     grid-template-columns: 1fr;
   }
@@ -54,7 +55,24 @@
   }
 
   .footer-container input,
-  .footer-container .list li {
+  .list li {
     width: 100%;
+  }
+  
+  .page-container > *:first-child {
+    grid-row: 1;
+  }
+
+  .l-heading {
+    font-size: 2rem;
+  }
+
+  .article .meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .article .meta .category {
+    margin: 0.5rem 0 0 0;
   }
 }
