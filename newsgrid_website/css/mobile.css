@@ -25,3 +25,36 @@
   grid-column: 1;
   grid-template-columns: 1fr;
 }
+
+@media(max-width: 600px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .showcase {
+    padding: 1rem;
+  }
+
+  .showcase .showcase-container {
+    height: auto;
+  }
+
+  .showcase h1 {
+    font-size: 1.5rem;
+  }
+
+  .showcase .showcase-container,
+  .home-articles .articles-container,
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-container > *:last-child {
+    grid-column: 1;
+  }
+
+  .footer-container input,
+  .footer-container .list li {
+    width: 100%;
+  }
+}
