@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0.5rem 0;
+}
+
 ul {
   list-style: none;
 }
@@ -68,6 +72,7 @@ img {
 .btn {
   display: inline-block;
   padding: 0.5rem 1.5rem;
+  border: none;
   background-color: var(--dark-color);
   color: #fff;
 }
@@ -121,6 +126,16 @@ img {
 .p-1 { padding: 1.5rem }
 .p-2 { padding: 2rem }
 .p-3 { padding: 3rem }
+
+.list li {
+  width: 90%;
+  padding: 0.5rem 0;
+  border-bottom: #666 dotted 1px;
+}
+
+.list li a:hover {
+  color: var(--primary-color);
+}
 
 .main-nav {
   background-color: #fff;
@@ -223,4 +238,43 @@ img {
 
 .home-articles .articles-container .card:last-child{
   grid-column: 2 / 4;
+}
+
+.main-footer {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.footer-container > *:last-child {
+  grid-column: 1 / 5;
+  justify-self: center;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.footer-container img{
+  width: 150px;
+}
+
+.footer-container input {
+  width: 90%;
+  font-family: 'Lato';
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-container input[type='email'] {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.footer-container a {
+  color: #fff;
 }
