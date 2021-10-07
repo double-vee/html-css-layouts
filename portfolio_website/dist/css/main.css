@@ -5,6 +5,42 @@
   overflow: hidden;
 }
 
+.btn-dark, .btn-light, .btn-main {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-main {
+  color: #222;
+  background-color: #ffbc00;
+}
+.btn-light {
+  color: #222;
+  background-color: #f4f4f4;
+}
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #222;
+}
+
+button[class^=btn-]:hover,
+a[class^=btn-]:hover,
+input[class^=btn-]:hover {
+  background-color: #ffbc00;
+}
+
+.lead {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
