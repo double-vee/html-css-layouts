@@ -1,9 +1,14 @@
 @import 'config';
 
+// General
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
@@ -27,4 +32,13 @@ h2, h3, h4 {
 
 img {
   width: 100%;
+}
+
+// Header
+.header {
+  &-home {
+    min-height: 100%;
+    background: $bg-img no-repeat center right / cover;
+    color: #fff;
+  }
 }

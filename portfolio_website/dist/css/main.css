@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #f0f0f0;
   font-family: "Dosis", sans-serif;
@@ -25,6 +29,12 @@ h2, h3, h4 {
 
 img {
   width: 100%;
+}
+
+.header-home {
+  min-height: 100%;
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
