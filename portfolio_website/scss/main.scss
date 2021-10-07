@@ -44,6 +44,34 @@ img {
   }
 }
 
+.header-home__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  .header-home__nav__menu {
+    display: flex;
+
+    a {
+      margin-left: 1.5rem;
+      padding: 1rem 0 0.5rem;
+      border-bottom: 3px transparent solid;
+      color: #fff;
+      text-transform: uppercase;
+      transition: border-color 0.3s;
+
+      &:hover {
+        border-color: $medium-color;
+      }
+
+      &.current {
+        border-color: $main-color;
+      }
+    }
+  }
+}
+
 .header-home__nav__logo {
   width: 70px;
   height: 70px;
