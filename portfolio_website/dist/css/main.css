@@ -73,4 +73,13 @@ img {
   height: 70px;
 }
 
+.header-home__content {
+  text-align: center;
+  padding-top: 6rem;
+}
+.header-home__content h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
 /*# sourceMappingURL=main.css.map */
