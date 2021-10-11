@@ -113,16 +113,50 @@ img {
 }
 
 .section-home {
+  // Home Section A
   &-a {
     .specials {
       margin-top: 3rem;
       display: grid;
-      gap: 1rem;
       grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
 
       .fas {
         padding-bottom: 0.4rem;
         color: $main-color;
+      }
+    }
+  }
+
+  // Home Section B
+  &-b {
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      ul {
+        padding: 2rem 0 1rem;
+
+        &:nth-child(even) {
+          background-color: $medium-color;
+        }
+
+        &:nth-child(odd) {
+          background-color: $light-color;
+        }
+      }
+
+      li {
+        line-height: 2;
+
+        &.stats__title {
+          font-size: 1.5rem;
+        }
+
+        &.stats__number {
+          font-size: 2rem;
+          font-weight: bold;
+        }
       }
     }
   }

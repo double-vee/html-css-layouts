@@ -155,12 +155,35 @@ img {
 .section-home-a .specials {
   margin-top: 3rem;
   display: grid;
-  gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 .section-home-a .specials .fas {
   padding-bottom: 0.4rem;
   color: #ffbc00;
+}
+.section-home-b .stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.section-home-b .stats ul {
+  padding: 2rem 0 1rem;
+}
+.section-home-b .stats ul:nth-child(even) {
+  background-color: #ccc;
+}
+.section-home-b .stats ul:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+.section-home-b .stats li {
+  line-height: 2;
+}
+.section-home-b .stats li.stats__title {
+  font-size: 1.5rem;
+}
+.section-home-b .stats li.stats__number {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
