@@ -90,3 +90,14 @@ input[class^='btn-']:hover {
   margin: 0 auto 1rem;
   background-color: $main-color;
 }
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%grid-col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

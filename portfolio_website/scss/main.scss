@@ -117,8 +117,7 @@ img {
   &-a {
     .specials {
       margin-top: 3rem;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      @extend %grid-col-4;
       gap: 1rem;
 
       .fas {
@@ -131,8 +130,7 @@ img {
   // Home Section B
   &-b {
     .stats {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      @extend %grid-col-4;
 
       ul {
         padding: 2rem 0 1rem;
@@ -164,8 +162,7 @@ img {
   // Home Section C
   &-c {
     .process {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      @extend %grid-col-4;
       gap: 1.5rem;
 
       &__wrapper {
@@ -179,9 +176,7 @@ img {
       }
 
       &__icon-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-center;
         position: relative;
         width: 150px;
         height: 150px;
@@ -192,9 +187,7 @@ img {
         transition-duration: 0.5s;
 
         .process__step {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          @extend %flex-center;
           position: absolute;
           top: 0;
           right: 0;
