@@ -160,4 +160,54 @@ img {
       }
     }
   }
+
+  // Home Section C
+  &-c {
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+          margin-bottom: 1rem;
+        }
+      }
+
+      &__icon-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: $medium-color;
+        color: $dark-color;
+        transition-property: background-color, color, width, height;
+        transition-duration: 0.5s;
+
+        .process__step {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          background-color: $main-color;
+          font-size: 1.5rem;
+          font-weight: 600;
+          transition-property: width, height, font-size;
+          transition-duration: 0.5s;
+        }
+      }
+    }
+  }
 }
