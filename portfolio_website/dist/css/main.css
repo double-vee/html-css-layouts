@@ -253,5 +253,18 @@ img {
   transition-property: width, height, font-size;
   transition-duration: 0.5s;
 }
+.section-home-c .process__icon-wrapper:hover {
+  width: 160px;
+  height: 160px;
+  background-color: #222;
+}
+.section-home-c .process__icon-wrapper:hover .process__icon {
+  color: #ffbc00;
+}
+.section-home-c .process__icon-wrapper:hover .process__step {
+  width: 55px;
+  height: 55px;
+  font-size: 2rem;
+}
 
 /*# sourceMappingURL=main.css.map */

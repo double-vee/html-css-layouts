@@ -207,6 +207,22 @@ img {
           transition-property: width, height, font-size;
           transition-duration: 0.5s;
         }
+
+        &:hover {
+          width: 160px;
+          height: 160px;
+          background-color: $dark-color;
+
+          .process__icon {
+            color: $main-color;
+          }
+  
+          .process__step {
+            width: 55px;
+            height: 55px;
+            font-size: 2rem;
+          }
+        }
       }
     }
   }
