@@ -4,3 +4,11 @@ $light-color: #f4f4f4;
 $medium-color: #ccc;
 $dark-color: #222;
 $bg-img: url('../img/showcase.jpg');
+
+@function set-text-color($bgcolor) {
+  @if(lightness($bgcolor) > 50) {
+    @return $dark-color;
+  } @else {
+    @return $light-color;
+  }
+}
