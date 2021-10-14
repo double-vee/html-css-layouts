@@ -202,9 +202,11 @@ img {
 }
 .section-home-b .stats ul:nth-child(even) {
   background-color: #ccc;
+  color: #222;
 }
 .section-home-b .stats ul:nth-child(odd) {
   background-color: #f4f4f4;
+  color: #222;
 }
 .section-home-b .stats li {
   line-height: 2;
@@ -261,7 +263,7 @@ img {
   background-color: #222;
 }
 .section-home-c .process__icon-wrapper:hover .process__icon {
-  color: #ffbc00;
+  color: #f4f4f4;
 }
 .section-home-c .process__icon-wrapper:hover .process__step {
   width: 55px;
@@ -296,6 +298,7 @@ img {
 }
 .main-footer__social .social__link:hover {
   background-color: #ffbc00;
+  color: #f4f4f4;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -138,10 +138,12 @@ img {
 
         &:nth-child(even) {
           background-color: $medium-color;
+          color: set-text-color($medium-color);
         }
 
         &:nth-child(odd) {
           background-color: $light-color;
+          color: set-text-color($light-color);
         }
       }
 
@@ -179,7 +181,7 @@ img {
         height: 150px;
         border-radius: 50%;
         background-color: $medium-color;
-        color: $dark-color;
+        color: set-text-color($medium-color);
         transition-property: background-color, color, width, height;
         transition-duration: 0.5s;
 
@@ -213,7 +215,7 @@ img {
           background-color: $dark-color;
 
           .process__icon {
-            color: $main-color;
+            color: set-text-color($dark-color);
           }
   
           .process__step {
@@ -235,7 +237,7 @@ img {
 // Footer
 .main-footer {
   background-color: $dark-color;
-  color: $light-color;
+  color: set-text-color($dark-color);
 
   &__content {
     display: flex;
@@ -252,12 +254,13 @@ img {
       padding: 1rem;
       border: 2px solid $light-color;
       border-radius: 50%;
-      color: $light-color;
+      color: set-text-color($dark-color);
       font-size: 1.25rem;
       transition: background-color 0.3s;
 
       &:hover {
         background-color: $main-color;
+        color: set-text-color($main-color);
       }
     } 
   }
