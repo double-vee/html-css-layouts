@@ -199,7 +199,11 @@ img {
         }
 
         ~ h3 mark {
+          padding-left: 6px;
+          padding-right: 6px;
           background-color: transparent;
+          -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
           transition: background-color 0.5s;
         }
 
