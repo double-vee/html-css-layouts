@@ -182,7 +182,7 @@ img {
         border-radius: 50%;
         background-color: $medium-color;
         color: set-text-color($medium-color);
-        transition-property: background-color, color, width, height;
+        transition-property: background-color, color, transform;
         transition-duration: 0.5s;
 
         .process__step {
@@ -196,7 +196,7 @@ img {
           background-color: $main-color;
           font-size: 1.5rem;
           font-weight: 600;
-          transition-property: width, height, font-size;
+          transition-property: transform, font-size;
           transition-duration: 0.5s;
         }
 
@@ -210,18 +210,16 @@ img {
         }
 
         &:hover {
-          width: 160px;
-          height: 160px;
           background-color: $dark-color;
+          transform: scale(1.1);
 
           .process__icon {
             color: set-text-color($dark-color);
           }
   
           .process__step {
-            width: 55px;
-            height: 55px;
             font-size: 2rem;
+            transform: scale(1.1);
           }
 
           ~ h3 mark {

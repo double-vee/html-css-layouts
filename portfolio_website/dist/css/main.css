@@ -233,7 +233,7 @@ img {
   border-radius: 50%;
   background-color: #ccc;
   color: #222;
-  transition-property: background-color, color, width, height;
+  transition-property: background-color, color, transform;
   transition-duration: 0.5s;
 }
 .section-home-c .process__icon-wrapper .process__step {
@@ -246,7 +246,7 @@ img {
   background-color: #ffbc00;
   font-size: 1.5rem;
   font-weight: 600;
-  transition-property: width, height, font-size;
+  transition-property: transform, font-size;
   transition-duration: 0.5s;
 }
 .section-home-c .process__icon-wrapper ~ h3 mark {
@@ -258,17 +258,15 @@ img {
   transition: background-color 0.5s;
 }
 .section-home-c .process__icon-wrapper:hover {
-  width: 160px;
-  height: 160px;
   background-color: #222;
+  transform: scale(1.1);
 }
 .section-home-c .process__icon-wrapper:hover .process__icon {
   color: #f4f4f4;
 }
 .section-home-c .process__icon-wrapper:hover .process__step {
-  width: 55px;
-  height: 55px;
   font-size: 2rem;
+  transform: scale(1.1);
 }
 .section-home-c .process__icon-wrapper:hover ~ h3 mark {
   background-color: #ffbc00;
