@@ -29,6 +29,7 @@ ul {
 
 h2, h3, h4 {
   text-transform: uppercase;
+  margin-bottom: 0.75rem;
 }
 
 img {
@@ -169,10 +170,6 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        h3 {
-          margin-bottom: 1rem;
-        }
       }
 
       &__icon-wrapper {
@@ -201,6 +198,11 @@ img {
           transition-duration: 0.5s;
         }
 
+        ~ h3 mark {
+          background-color: transparent;
+          transition: background-color 0.5s;
+        }
+
         &:hover {
           width: 160px;
           height: 160px;
@@ -214,6 +216,11 @@ img {
             width: 55px;
             height: 55px;
             font-size: 2rem;
+          }
+
+          ~ h3 mark {
+            background-color: $main-color;
+            transition: background-color 0.5s;
           }
         }
       }
