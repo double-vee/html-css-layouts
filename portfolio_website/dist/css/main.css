@@ -79,7 +79,7 @@ input[class^=btn-]:hover {
   background-color: #ffbc00;
 }
 
-.section-home-c .process__icon-wrapper .process__step, .section-home-c .process__icon-wrapper {
+.main-footer__social .social__link, .section-home-c .process__icon-wrapper .process__step, .section-home-c .process__icon-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,6 +271,31 @@ img {
 .section-home-c .process__icon-wrapper:hover ~ h3 mark {
   background-color: #ffbc00;
   transition: background-color 0.5s;
+}
+
+.main-footer {
+  background-color: #222;
+  color: #f4f4f4;
+}
+.main-footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-footer__social {
+  display: flex;
+  gap: 1rem;
+}
+.main-footer__social .social__link {
+  padding: 1rem;
+  border: 2px solid #f4f4f4;
+  border-radius: 50%;
+  color: #f4f4f4;
+  font-size: 1.25rem;
+  transition: background-color 0.3s;
+}
+.main-footer__social .social__link:hover {
+  background-color: #ffbc00;
 }
 
 /*# sourceMappingURL=main.css.map */

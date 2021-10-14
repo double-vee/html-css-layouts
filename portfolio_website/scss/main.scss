@@ -231,3 +231,34 @@ img {
     }
   }
 }
+
+// Footer
+.main-footer {
+  background-color: $dark-color;
+  color: $light-color;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__social {
+    display: flex;
+    gap: 1rem;
+
+    .social__link {
+      @extend %flex-center;
+      padding: 1rem;
+      border: 2px solid $light-color;
+      border-radius: 50%;
+      color: $light-color;
+      font-size: 1.25rem;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: $main-color;
+      }
+    } 
+  }
+}
