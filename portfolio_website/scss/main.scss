@@ -261,6 +261,8 @@ img {
         flex-direction: column;
         padding: 0.8rem;
         border-left: 2px solid $main-color;
+        background-color: $light-color;
+        color: set-text-color($light-color);
       }
 
       .award-1 {
@@ -325,6 +327,9 @@ img {
 
   // About Section C
   &-c {
+    background-color: $light-color;
+    color: set-text-color($light-color);
+
     &__logos {
       @extend %grid-col-4;
       justify-items: center;

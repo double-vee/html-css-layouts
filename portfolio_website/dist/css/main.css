@@ -19,10 +19,10 @@
 }
 .btn-light {
   color: #222;
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
 }
 .btn-dark {
-  color: #f4f4f4;
+  color: #f8f8f8;
   background-color: #222;
 }
 
@@ -212,7 +212,7 @@ img {
   color: #222;
 }
 .section-home-b .stats ul:nth-child(odd) {
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
   color: #222;
 }
 .section-home-b .stats li {
@@ -269,7 +269,7 @@ img {
   transform: scale(1.1);
 }
 .section-home-c .process__icon-wrapper:hover .process__icon {
-  color: #f4f4f4;
+  color: #f8f8f8;
 }
 .section-home-c .process__icon-wrapper:hover .process__step {
   font-size: 2rem;
@@ -295,6 +295,8 @@ img {
   flex-direction: column;
   padding: 0.8rem;
   border-left: 2px solid #ffbc00;
+  background-color: #f8f8f8;
+  color: #222;
 }
 .section-about-a__info .award-1 {
   grid-area: award1;
@@ -311,7 +313,7 @@ img {
 }
 .section-about-b {
   background-color: #222;
-  color: #f4f4f4;
+  color: #f8f8f8;
 }
 .section-about-b h4 {
   margin-bottom: 0.25rem;
@@ -341,6 +343,10 @@ img {
 .section-about-b__progress .skill-4 {
   width: 95%;
 }
+.section-about-c {
+  background-color: #f8f8f8;
+  color: #222;
+}
 .section-about-c__logos {
   justify-items: center;
   gap: 2rem;
@@ -351,7 +357,7 @@ img {
 
 .main-footer {
   background-color: #222;
-  color: #f4f4f4;
+  color: #f8f8f8;
 }
 .main-footer__content {
   display: flex;
@@ -364,15 +370,15 @@ img {
 }
 .main-footer__social .social__link {
   padding: 1rem;
-  border: 2px solid #f4f4f4;
+  border: 2px solid #f8f8f8;
   border-radius: 50%;
-  color: #f4f4f4;
+  color: #f8f8f8;
   font-size: 1.25rem;
   transition: background-color 0.3s;
 }
 .main-footer__social .social__link:hover {
   background-color: #ffbc00;
-  color: #f4f4f4;
+  color: #f8f8f8;
 }
 
 /*# sourceMappingURL=main.css.map */
