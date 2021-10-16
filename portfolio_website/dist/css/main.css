@@ -86,7 +86,7 @@ input[class^=btn-]:hover {
   align-items: center;
 }
 
-.section-about-c__logos, .section-home-c .process, .section-home-b .stats, .section-home-a .specials {
+.section-about-d__testimonials, .section-about-c__logos, .section-home-c .process, .section-home-b .stats, .section-home-a .specials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -353,6 +353,26 @@ img {
 }
 .section-about-c__logos img {
   width: 70%;
+}
+.section-about-d__testimonials {
+  gap: 1rem;
+}
+.section-about-d__testimonials p {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.section-about-d__testimonials figure {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section-about-d__testimonials figure img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .main-footer {
