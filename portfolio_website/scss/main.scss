@@ -43,6 +43,13 @@ img {
     background: $bg-img no-repeat center right / cover;
     color: #fff;
   }
+
+  &-inner {
+    min-height: 6rem;
+    border-bottom: 3px solid $main-color;
+    background: $bg-img no-repeat 20% 30% / cover;
+    color: #fff;
+  }
 }
 
 .header__nav {
