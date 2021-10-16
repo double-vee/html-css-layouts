@@ -79,7 +79,7 @@ input[class^=btn-]:hover {
   background-color: #ffbc00;
 }
 
-.main-footer__social .social__link, .section-home-c .process__icon-wrapper .process__step, .section-home-c .process__icon-wrapper {
+.main-footer__social .social__link, .section-about-a__info .info__bio, .section-home-c .process__icon-wrapper .process__step, .section-home-c .process__icon-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,6 +277,36 @@ img {
 .section-home-c .process__icon-wrapper:hover ~ h3 mark {
   background-color: #ffbc00;
   transition: background-color 0.5s;
+}
+
+.section-about-a__info {
+  display: grid;
+  grid-template-areas: "image bio bio" "award1 award2 award3";
+  gap: 1.2rem;
+}
+.section-about-a__info .info__image {
+  grid-area: image;
+  height: 100%;
+  object-fit: cover;
+}
+.section-about-a__info .info__bio {
+  grid-area: bio;
+  flex-direction: column;
+  padding: 0.8rem;
+  border-left: 2px solid #ffbc00;
+}
+.section-about-a__info .award-1 {
+  grid-area: award1;
+}
+.section-about-a__info .award-2 {
+  grid-area: award2;
+}
+.section-about-a__info .award-3 {
+  grid-area: award3;
+}
+.section-about-a__info .info__award .fas {
+  margin: 1rem;
+  color: #ffbc00;
 }
 
 .main-footer {

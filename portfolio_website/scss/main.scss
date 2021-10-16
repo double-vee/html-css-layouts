@@ -239,6 +239,50 @@ img {
   }
 }
 
+// About Section A
+.section-about {
+  &-a {
+    &__info {
+      display: grid;
+      grid-template-areas:
+        'image bio bio'
+        'award1 award2 award3';
+      gap: 1.2rem;
+
+      .info__image {
+        grid-area: image;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .info__bio {
+        grid-area: bio;
+        @extend %flex-center;
+        flex-direction: column;
+        padding: 0.8rem;
+        border-left: 2px solid $main-color;
+      }
+
+      .award-1 {
+        grid-area: award1;
+      }
+
+      .award-2 {
+        grid-area: award2;
+      }
+
+      .award-3 {
+        grid-area: award3;
+      }
+      
+      .info__award .fas {
+        margin: 1rem;
+        color: $main-color;
+      }
+    }
+  }
+}
+
 // Footer
 .main-footer {
   background-color: $dark-color;
