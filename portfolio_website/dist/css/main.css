@@ -86,7 +86,7 @@ input[class^=btn-]:hover {
   align-items: center;
 }
 
-.section-home-c .process, .section-home-b .stats, .section-home-a .specials {
+.section-about-c__logos, .section-home-c .process, .section-home-b .stats, .section-home-a .specials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -340,6 +340,13 @@ img {
 }
 .section-about-b__progress .skill-4 {
   width: 95%;
+}
+.section-about-c__logos {
+  justify-items: center;
+  gap: 2rem;
+}
+.section-about-c__logos img {
+  width: 70%;
 }
 
 .main-footer {

@@ -282,6 +282,7 @@ img {
     }
   }
 
+  // About Section B
   &-b {
     background-color: $dark-color;
     color: set-text-color($dark-color);
@@ -318,6 +319,19 @@ img {
 
       .skill-4 {
         width: 95%;
+      }
+    }
+  }
+
+  // About Section C
+  &-c {
+    &__logos {
+      @extend %grid-col-4;
+      justify-items: center;
+      gap: 2rem;
+
+      img {
+        width: 70%;
       }
     }
   }
