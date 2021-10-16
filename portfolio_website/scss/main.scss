@@ -45,13 +45,13 @@ img {
   }
 }
 
-.header-home__nav {
+.header__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
 
-  .header-home__nav__menu {
+  .header__nav__menu {
     display: flex;
 
     a {
@@ -73,12 +73,12 @@ img {
   }
 }
 
-.header-home__nav__logo {
+.header__nav__logo {
   width: 70px;
   height: 70px;
 }
 
-.header-home__content {
+.header__content {
   text-align: center;
   padding-top: 6rem;
 
