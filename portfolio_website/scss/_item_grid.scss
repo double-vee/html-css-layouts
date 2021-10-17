@@ -36,6 +36,7 @@
           width: 100%;
           height: 100%;
           top: 0;
+          padding: 1rem;
           color: #fff;
           line-height: 1.2;
           letter-spacing: 0.05rem;
@@ -55,6 +56,19 @@
             text-transform: uppercase;
           }
         }
+      }
+
+      &:hover::before {
+        transform: scale(2) rotate(-45deg) translate3d(0, 0, 0);
+      }
+
+      &:hover .item__image img {
+        transform: scale(1.2);
+      }
+
+      &:hover .item__image figcaption {
+        opacity: 1;
+        transform: translateY(0);
       }
     }
   }

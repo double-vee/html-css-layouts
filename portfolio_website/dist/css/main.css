@@ -125,6 +125,7 @@ input[class^=btn-]:hover {
   width: 100%;
   height: 100%;
   top: 0;
+  padding: 1rem;
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0.05rem;
@@ -141,6 +142,16 @@ input[class^=btn-]:hover {
 .section-work-a__grid .grid__item .item__image figcaption .image__category {
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+.section-work-a__grid .grid__item:hover::before {
+  transform: scale(2) rotate(-45deg) translate3d(0, 0, 0);
+}
+.section-work-a__grid .grid__item:hover .item__image img {
+  transform: scale(1.2);
+}
+.section-work-a__grid .grid__item:hover .item__image figcaption {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 * {
