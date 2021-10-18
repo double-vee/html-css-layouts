@@ -371,6 +371,48 @@ img {
   }
 }
 
+// Contact Section A
+.section-contact {
+  &-a {
+    &__form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      
+      .form__group {
+        display: flex;
+        gap: 1rem;
+      }
+      
+      .form__input {
+        display: block;
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border: none;
+        background-color: #fff;
+        color: $dark-color;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1rem;
+
+        &::placeholder {
+          color: $dark-color;
+        }
+      }
+
+      .input--message {
+        height: 100px;
+      }
+
+      .form__btn {
+        margin: 4rem auto 2rem;
+        width: 50%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1rem; 
+      }
+    }
+  }
+}
+
 // Footer
 .main-footer {
   background-color: $dark-color;
