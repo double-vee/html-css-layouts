@@ -25,7 +25,25 @@
       </nav>
     </div>
   </header>
-
+  <section class="section-contact-a text-center py-2">
+    <div class="container">
+      <h2 class="section__title">Contact me</h2>
+      <div class="section__line--bottom"></div>
+      <p class="lead">Here is how you can reach me:</p>
+      <form class="section-contact-a__form">
+        <div class="form__group">
+          <input type="text" id="name" name="name" placeholder="Name" class="form__input" aria-label="Name">
+          <input type="email" id="email" name="email" placeholder="Email address" class="form__input" aria-label="Email" aria-required="true" required>
+        </div>
+        <div class="form__group">
+          <input type="text" id="subject" name="subject" placeholder="Subject" class="form__input" aria-label="Subject">
+          <input type="tel" id="phone" name="phone" placeholder="Phone number" class="form__input" aria-label="Phone">
+        </div>
+        <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter message" class="form__input input--message"></textarea>
+        <button type="submit" class="btn-dark form__btn">Submit</button>
+      </form>
+    </div>
+  </section>
   <footer class="main-footer py-2">
     <div class="container main-footer__content">
       <p>&copy; 2021 John Doe</p>
