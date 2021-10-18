@@ -411,6 +411,16 @@ img {
       }
     }
   }
+
+  &-b {
+    background-color: $main-color;
+
+    &__info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  }
 }
 
 // Footer

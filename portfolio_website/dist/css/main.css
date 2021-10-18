@@ -469,6 +469,14 @@ img {
   font-family: "Dosis", sans-serif;
   font-size: 1rem;
 }
+.section-contact-b {
+  background-color: #ffbc00;
+}
+.section-contact-b__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
 
 .main-footer {
   background-color: #222;
