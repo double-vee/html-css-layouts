@@ -59,6 +59,11 @@ img {
   align-items: center;
   padding: 1rem;
 
+  .header__nav__logo {
+    width: 70px;
+    height: 70px;
+  }
+
   .header__nav__menu {
     display: flex;
 
@@ -79,11 +84,6 @@ img {
       }
     }
   }
-}
-
-.header__nav__logo {
-  width: 70px;
-  height: 70px;
 }
 
 .header__content {
@@ -400,7 +400,7 @@ img {
       }
 
       .input--message {
-        height: 100px;
+        height: 6.5rem;
       }
 
       .form__btn {

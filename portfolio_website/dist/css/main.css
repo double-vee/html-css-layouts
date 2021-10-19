@@ -206,6 +206,10 @@ img {
   align-items: center;
   padding: 1rem;
 }
+.header__nav .header__nav__logo {
+  width: 70px;
+  height: 70px;
+}
 .header__nav .header__nav__menu {
   display: flex;
 }
@@ -222,11 +226,6 @@ img {
 }
 .header__nav .header__nav__menu a.current {
   border-color: #ffbc00;
-}
-
-.header__nav__logo {
-  width: 70px;
-  height: 70px;
 }
 
 .header__content {
@@ -461,7 +460,7 @@ img {
   color: #222;
 }
 .section-contact-a__form .input--message {
-  height: 100px;
+  height: 6.5rem;
 }
 .section-contact-a__form .form__btn {
   margin: 4rem auto 2rem;
@@ -534,6 +533,107 @@ img {
 
   .section-work-a__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  .lead {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .header__nav {
+    flex-direction: column;
+  }
+  .header__nav .header__nav__logo {
+    width: 50px;
+    height: 50px;
+  }
+  .header__nav .header__nav__menu {
+    gap: 1rem;
+  }
+  .header__nav .header__nav__menu a {
+    margin-left: 0;
+  }
+
+  .header__content h1 {
+    width: 14.25rem;
+    margin: 0 auto 1rem;
+    font-size: 2.5rem;
+  }
+
+  .section-home-a .specials {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+  .section-home-b .stats {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-home-b .stats ul:nth-child(even) {
+    background-color: #ccc;
+    color: #222;
+  }
+  .section-home-b .stats ul:nth-child(odd) {
+    background-color: #f8f8f8;
+    color: #222;
+  }
+  .section-home-b .stats li.stats__title {
+    font-size: 1.25rem;
+  }
+  .section-home-b .stats li.stats__number {
+    font-size: 1.75rem;
+  }
+  .section-home-c .process {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-about-a__info {
+    grid-template-areas: "image" "bio" "award1" "award2" "award3";
+    gap: 1rem;
+  }
+  .section-about-a__info .info__bio {
+    border: none;
+  }
+  .section-about-c {
+    padding: 3rem 0;
+  }
+  .section-about-c__logos {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .section-about-d {
+    padding: 3rem 0;
+  }
+  .section-about-d__testimonials {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  .section-work-a__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-contact-a__form .form__group {
+    flex-direction: column;
+  }
+  .section-contact-a__form .input--message {
+    height: 10rem;
+  }
+  .section-contact-b__info {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  .main-footer__content {
+    flex-direction: column;
+  }
+  .main-footer__social {
+    margin-bottom: 1.5rem;
+    order: -1;
+    gap: 0.85rem;
   }
 }
 
