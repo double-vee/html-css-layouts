@@ -83,6 +83,8 @@
   }
 
   .header__content {
+    padding-top: 8rem;
+
     h1 {
       width: 14.25rem;
       margin: 0 auto 1rem;
@@ -203,6 +205,28 @@
       margin-bottom: 1.5rem;
       order: -1;
       gap: 0.85rem;
+    }
+  }
+}
+
+@media(max-height: 560px) {
+  .header__content {
+    padding-top: 3rem;
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media(max-height: 360px) {
+  .header__content {
+    padding-top: 1rem;
+
+    h1 {
+      width: 100%;
+      margin: 0 auto 0.5rem;
+      font-size: 1.5rem;
     }
   }
 }
