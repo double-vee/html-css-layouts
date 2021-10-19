@@ -1,0 +1,42 @@
+@media(max-width: 800px) {
+  .header__content {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .section-home {
+    &-a {
+      .specials {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    &-b {
+      .stats {
+        grid-template-columns: repeat(2, 1fr);
+  
+        ul {
+          &:nth-child(2),
+          &:nth-child(3) {
+            background-color: $medium-color;
+            color: set-text-color($medium-color);
+          }
+  
+          &:nth-child(1),
+          &:nth-child(4) {
+            background-color: $light-color;
+            color: set-text-color($light-color);
+          }
+        }
+      }
+    }
+
+    &-c {
+      .process {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+    }
+  }
+}

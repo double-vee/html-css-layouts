@@ -412,6 +412,7 @@ img {
     }
   }
 
+  // Contact Section B
   &-b {
     background-color: $main-color;
 
@@ -454,3 +455,5 @@ img {
     } 
   }
 }
+
+@import 'media';

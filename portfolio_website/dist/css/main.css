@@ -504,4 +504,29 @@ img {
   color: #f8f8f8;
 }
 
+@media (max-width: 800px) {
+  .header__content h1 {
+    font-size: 3rem;
+  }
+
+  .section-home-a .specials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-home-b .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-home-b .stats ul:nth-child(2), .section-home-b .stats ul:nth-child(3) {
+    background-color: #ccc;
+    color: #222;
+  }
+  .section-home-b .stats ul:nth-child(1), .section-home-b .stats ul:nth-child(4) {
+    background-color: #f8f8f8;
+    color: #222;
+  }
+  .section-home-c .process {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
