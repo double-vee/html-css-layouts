@@ -132,4 +132,44 @@
       }
     }
   }
+
+  .section-about {
+    &-a {
+      &__info {
+        grid-template-areas:
+          'image'
+          'bio'
+          'award1'
+          'award2'
+          'award3';
+        gap: 1rem;
+
+        .info__bio {
+          border: none;
+        }
+      }
+    }
+
+    &-c {
+      padding: 3rem 0;
+      &__logos {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+      }
+    }
+
+    &-d {
+      padding: 3rem 0;
+      &__testimonials {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+      }
+    }
+  }
+
+  .section-work-a {
+    &__grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 }
