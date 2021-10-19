@@ -39,4 +39,18 @@
       }
     }
   }
+
+  .section-about {
+    &-d {
+      &__testimonials {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+  .section-work-a {
+    &__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }
